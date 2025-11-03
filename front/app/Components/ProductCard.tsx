@@ -7,10 +7,6 @@ import { Button } from "@/components/ui/button";
 import { redirect } from "next/navigation";
 
 export default function ProductCard({ product }: { product: any }) {
-  // const { deleteProduct } = useProductStore();
-  // function deleteProduct2(){
-  //   deleteProduct(product.id);
-  // }
   function test() {
     redirect(`/product/${product.id}`);
   }
